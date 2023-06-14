@@ -42,7 +42,6 @@ df.drop_duplicates(subset='EstablishmentName', keep='first', inplace=True)
 
 processed_data = df.to_json(orient='records')
 
-# <scripts>
-# //assign the processed data to a variable 
-# var processed_data = JSON.parse('{{processed_data|safe}}')
-# </scripts>
+# Save the processed data as JSON to a file
+with open('processed_data.json', 'w') as file:
+    json.dump(processed_data, file)

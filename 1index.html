@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Inspection Scores</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <style>
+    /* Center the search section */
+    #search {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .search-container {
+      margin-top: 10px;
+    }
+
+    #searchInput {
+      width: 300px;
+      padding: 5px;
+      margin-right: 5px;
+    }
+
+    #searchButton {
+      padding: 5px 10px;
+    }
+
+    #searchResults {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 10px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Restaurant Inspection Scores</h1>
+  </header>
+  
+  <section id="search">
+    <h2>Search Restaurants</h2>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search by restaurant name">
+      <button id="searchButton">Search</button>
+    </div>
+    <ul id="searchResults"></ul>
+  </section>
+  
+  <main>
+    <section id="top10">
+      <h2>Top 10 Restaurants</h2>
+      <canvas id="topChart"></canvas>
+    </section>
+    
+    <section id="worst10">
+      <h2>Worst 10 Restaurants</h2>
+      <canvas id="worstChart"></canvas>
+    </section>
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
