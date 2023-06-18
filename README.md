@@ -14,3 +14,5 @@ The purpose of this project is to demonstrate proficiency in using Python to ret
 * Web Development: Create a user-friendly website using HTML, CSS, and JavaScript. Implement a search functionality where users can search for specific restaurants and view their inspection scores. The website will showcase the top 10 best and worst restaurants, along with relevant details such as location, and inspection dates.
 
 Overall, this project aims to demonstrate proficiency in Python programming, including working with APIs and manipulating data. Additionally, it showcases web development skills by creating an interactive and visually appealing website for users to access and search restaurant inspection scores.
+
+![Screenshot](https://github.com/dmorton714/-restaurant_inspection_scores/blob/main/images/Screenshot%202023-06-17%20at%2011.22.43%20PM.png)
