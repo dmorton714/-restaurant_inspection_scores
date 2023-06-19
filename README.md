@@ -16,3 +16,6 @@ The purpose of this project is to demonstrate proficiency in using Python to ret
 Overall, this project aims to demonstrate proficiency in Python programming, including working with APIs and manipulating data. Additionally, it showcases web development skills by creating an interactive and visually appealing website for users to access and search restaurant inspection scores.
 
 ![Screenshot](https://github.com/dmorton714/-restaurant_inspection_scores/blob/main/images/Screenshot%202023-06-17%20at%2011.22.43%20PM.png)
+
+To run the website you must run the following in the terminal: python3 -m http.server 
+Site address: http://localhost:8000/index.html
