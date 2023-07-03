@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Fetch the processed_data from the local file
-  fetch('processed_data.json')
+  fetch('json_files/processed_data.json')
     .then(response => response.json())
     .then(data => {
       // Use the processed_data array

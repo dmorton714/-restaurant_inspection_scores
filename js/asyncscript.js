@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
   try {
     // Fetch the processed_data from the local file
-    const fetchedData = await fetch('processed_data.json')
+    const fetchedData = await fetch('json_files/processed_data.json')
     const data = await fetchedData.json();
     const restaurants = JSON.parse(data).sort((a, b) => (b.score - a.score));
     // Function to create a chart
