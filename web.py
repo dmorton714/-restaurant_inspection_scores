@@ -1,4 +1,5 @@
 import pandas as pd 
+import json
 from arcgis.features import FeatureLayer
 
 url = 'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/FoodServiceData/FeatureServer/0'
