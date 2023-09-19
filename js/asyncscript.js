@@ -46,6 +46,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     // createChart('topChart', topLabels, topScores);
 
     // Create the chart for the worst 10 restaurants
+    const topScores = restaurants.slice(-10).map(restaurant => restaurant.Rating).reverse();
+    const topLabels = restaurants.slice(-10).map(restaurant => restaurant.EstablishmentName).reverse();
+    createChart('topChart', topLabels, topScores);
+
+    // Create the chart for the worst 10 restaurants
     const worstScores = restaurants.slice(-10).map(restaurant => restaurant.score).reverse();
     const worstLabels = restaurants.slice(-10).map(restaurant => restaurant.EstablishmentName).reverse();
     createChart('worstChart', worstLabels, worstScores);
